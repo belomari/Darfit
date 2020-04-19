@@ -1,0 +1,245 @@
+
+
+
+body { 
+    background-color: rgb(214, 218, 226);
+}
+
+
+
+ .paw {       text-align: center;
+ }     
+
+ .premtitre { 
+     padding-top: 60px;
+ }
+ 
+ .run , .drari , .dar{  
+     color: white; 
+     
+     }
+
+ .drari  { 
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+}
+.run { 
+    position: relative;
+    right: 105px;
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+}
+.dar { 
+    position: relative;
+    left: 86px;
+}
+
+
+footer a { 
+    color: rgb(44, 179, 192);
+    font-size: 40px;}
+
+ 
+
+ .red { 
+height: 450px;
+background-image: url(encgt.jpg);
+background-position: center;
+text-align: center;
+}
+
+
+.fas { 
+    color: green;
+}
+
+ul { 
+    color: white;
+}
+
+footer a:hover { 
+    color: white;
+
+}   
+
+img{ 
+    
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.repas { 
+   text-align: center;
+   border: 2px solid white;
+   background-color: white;
+   padding-bottom: 18px;
+}
+
+.entrainement { 
+    text-align: center;
+    border: 4px solid white;
+    background-color: white;
+}
+
+h2 { 
+    color: rgb(44, 179, 192);
+}
+
+.impact {  
+    
+    border: 4px solid white;
+    background-color: white;
+    width: 540px;
+    margin-left: 7.55cm;
+    
+    
+    
+    
+    }
+
+
+.tabl1 { 
+    text-align: center;
+    border: 4px solid white;
+    background-color: white;
+}
+
+.blue { 
+  
+    height: 700px; 
+    background-color: rgb(214, 218, 226);
+    margin-bottom: 140px;
+    
+}
+
+.vision { 
+    margin-left: 165px;
+    
+    
+
+}
+
+.table3{ 
+    text-align: center;
+    border: 3px solid white;
+    background-color: white; 
+    height: 440px;
+    border-radius: 5px;
+}
+.table4 { 
+    text-align: center;
+    border: 5px solid white;
+    background-color: white;
+    height: 440px;
+    border-radius: 5px;
+    
+}
+.table5 { 
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    height: 440px;
+    border-radius: 5px;
+   
+}
+
+
+ .reee { 
+     color: inherit;
+ }
+
+ #ayoub { 
+     color:rgb(44, 179, 192);
+     background-color: rgb(214, 218, 226);
+     border: 2px solid rgb(214, 218, 226) ;
+ }
+#ayoub:hover {
+    color: white;
+}
+
+
+
+ .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color: rgb(44, 179, 192);
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: rgb(44, 179, 192);
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+    .marre { 
+        border: 2px solid white ;
+        background-color: white;
+    }
+
+    .impakt { 
+        border: 4px solid white;
+        background-color: white;
+    }
+
+    .col { 
+        border: 2px solid white;
+        background-color: white;
+        height: 300px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .buttom { 
+        color: rgb(44, 179, 192);
+    }
+     
+   .ayeah { 
+       margin-top: 300px;
+   }
+
+   .fib { 
+     font-size: 40px;
+     color: rgb(44, 179, 192);
+   }
+   .fib:hover { 
+       color: rgb(214, 218, 226);
+   }
+
+   footer {
+    width: 95%;
+    z-index: 100;
+}
