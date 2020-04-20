@@ -7,6 +7,7 @@ body {
 
 
 
+
  .paw {       text-align: center;
  }     
 
@@ -25,7 +26,7 @@ body {
 }
 .run { 
     position: relative;
-    right: 105px;
+    right: 65px;
     font-family: 'Pacifico', cursive;
     font-size: 90px;
 }
@@ -171,7 +172,7 @@ h2 {
     }
 
     .search_input{
-    color: white;
+    color: rgb(44, 179, 192);
     border: 0;
     outline: 0;
     background: none;
