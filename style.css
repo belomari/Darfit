@@ -4,35 +4,25 @@
 body { 
     background-color: rgb(214, 218, 226);
 }
-
-
-
-
- .paw {       text-align: center;
- }     
-
  .premtitre { 
      padding-top: 60px;
  }
  
- .run , .drari , .dar{  
+ .run  , .dar{  
      color: white; 
      
      }
 
- .drari  { 
-    font-family: 'Oswald', sans-serif;
-    font-size: 90px;
-}
 .run { 
-    position: relative;
-    right: 65px;
+    text-align: center;
+    padding-top: 60px;
     font-family: 'Pacifico', cursive;
-    font-size: 90px;
+    font-size: 120px;
 }
 .dar { 
     position: relative;
-    left: 86px;
+    left: 70px;
+    font-family: 'Pacifico', cursive;
 }
 
 
@@ -109,7 +99,7 @@ h2 {
 
 .blue { 
   
-    height: 700px; 
+    height: 600px; 
     background-color: rgb(214, 218, 226);
     margin-bottom: 140px;
     
@@ -117,10 +107,7 @@ h2 {
 
 .vision { 
     margin-left: 165px;
-    
-    
-
-}
+    }
 
 .table3{ 
     text-align: center;
@@ -239,8 +226,22 @@ h2 {
    .fib:hover { 
        color: rgb(214, 218, 226);
    }
+   
+   @media only screen and (max-width: 700px){ 
+       footer { 
+           margin-top: 1000px;
+       }
+       .vision { 
+        text-align: center;
+        position: relative;
+        right: 80px;
+       }
+       header .btn { 
+           width: 100%;
 
-   footer {
-    width: 95%;
-    z-index: 100;
-}
+       }
+       
+   }
+   
+   
+       
