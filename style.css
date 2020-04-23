@@ -25,11 +25,14 @@ body {
 }
 
 
-footer a { 
+footer .fab { 
     color: rgb(44, 179, 192);
     font-size: 40px;}
 
- 
+footer { 
+    font-size: 13px;
+    color: rgba(121, 121, 121, 0.8);
+} 
 
  .red { 
 height: 450px;
@@ -47,7 +50,8 @@ ul {
     color: white;
 }
 
-footer a:hover { 
+footer .fab:hover { 
+    
     color: white;
 
 }   
@@ -112,14 +116,14 @@ h2 {
     text-align: center;
     border: 3px solid white;
     background-color: white; 
-    height: 440px;
+    height: 380px;
     border-radius: 5px;
 }
 .table4 { 
     text-align: center;
     border: 5px solid white;
     background-color: white;
-    height: 440px;
+    height: 380px;
     border-radius: 5px;
     
 }
@@ -127,7 +131,7 @@ h2 {
     text-align: center;
     border: 1px solid white;
     background-color: white;
-    height: 440px;
+    height: 380px;
     border-radius: 5px;
    
 }
@@ -224,7 +228,16 @@ h2 {
    }
    .fib:hover { 
        color: rgb(214, 218, 226);
+   } 
+   .paragraphe1 , .paragraphe2 , .paragraphe3 { 
+       font-size: 22px;
+       text-align: justify;
+       color: rgba(59, 58, 58, 0.8);
+       
    }
+.paragraphe1 , .paragraphe3 { 
+    padding-top: 16px;
+}
    
    
    @media only screen and (max-width: 900px){ 
